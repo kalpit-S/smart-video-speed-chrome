@@ -1,4 +1,4 @@
-# Smart Video Speed
+# Smart Video Speed (Chrome)
 
 ## Overview
 
