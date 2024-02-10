@@ -33,9 +33,9 @@ For Windows/Linux:
 
 For Mac:
 
-- **Increase Video Speed**: `Command + Shift + Period`
-- **Decrease Video Speed**: `Command + Shift + Comma`
-- **Activate Dynamic Speed**: `Command + Shift + Y`
+- **Increase Video Speed**: `Control + Shift + Period`
+- **Decrease Video Speed**: `Control + Shift + Comma`
+- **Activate Dynamic Speed**: `Control + Shift + Y`
 
 To customize these shortcuts or to set shortcuts for preset speeds, go to `chrome://extensions/shortcuts` in your Chrome browser and adjust them as needed.
 
