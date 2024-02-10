@@ -68,12 +68,6 @@ For support, feature requests, or bug reports, please file an issue. Feel free t
 
 ## Possible future updates
 
-- Chrome extension (will do this very soon)
-
-- Upload to Firefox Add-ons and Chrome Web store
-
-- User-Defined Shortcuts: Allow users to set custom shortcuts
-
 - Music Video Exclusion: Exclude music videos from getting affected by default speed settings
 
 - Enhanced Transcript Analysis: The extension could analyze the upcoming transcript from that point to determine the speaker's pace and adjust the video speed accordingly, allowing for more localized control.
