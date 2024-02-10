@@ -16,28 +16,28 @@
     "host_permissions": [
       "<all_urls>"
     ],
-      "commands": {
-        "increase_speed": {
-          "suggested_key": {
-            "default": "Ctrl+Shift+Period",
-            "mac": "Command+Shift+Period"
-          },
-          "description": "Increase Video Speed"
+    "commands": {
+      "increase_speed": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Period",
+          "mac": "MacCtrl+Shift+Period"
         },
-        "decrease_speed": {
-          "suggested_key": {
-            "default": "Ctrl+Shift+Comma",
-            "mac": "Command+Shift+Comma"
-          },
-          "description": "Decrease Video Speed"
+        "description": "Increase Video Speed"
+      },
+      "decrease_speed": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Comma",
+          "mac": "MacCtrl+Shift+Comma"
         },
-        "set_wpm": {
-          "suggested_key": {
-            "default": "Ctrl+Shift+Y",
-            "mac": "Command+Shift+Y"
-          },
-          "description": "Activate Dynamic Speed"
+        "description": "Decrease Video Speed"
+      },
+      "set_wpm": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Y",
+          "mac": "MacCtrl+Shift+Y"
         },
+        "description": "Activate Dynamic Speed"
+      },
         "preset_speed_1": {
           "description": "Jump to Preset Speed 1"
         },
