@@ -1,0 +1,64 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Video Speed",
+    "version": "1.0",
+    "description": "Use hotkeys to control video speed on web pages and auto-adjust playback based on your target words per minute",
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "storage"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+      "commands": {
+        "increase_speed": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+Period",
+            "mac": "Command+Shift+Period"
+          },
+          "description": "Increase Video Speed"
+        },
+        "decrease_speed": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+Comma",
+            "mac": "Command+Shift+Comma"
+          },
+          "description": "Decrease Video Speed"
+        },
+        "set_wpm": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+Y",
+            "mac": "Command+Shift+Y"
+          },
+          "description": "Activate Dynamic Speed"
+        },
+        "preset_speed_1": {
+          "description": "Jump to Preset Speed 1"
+        },
+        "preset_speed_2": {
+          "description": "Jump to Preset Speed 2"
+        },
+        "preset_speed_3": {
+          "description": "Jump to Preset Speed 3"
+        }
+      },  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "options_ui": {
+      "page": "options.html",
+      "open_in_tab": true
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+}
